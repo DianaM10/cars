@@ -12,4 +12,9 @@ class Engine
     @speed += 25
   end
 
+  def accelerate_car_with_regular_engine()
+    @fuel_level -= 5 
+    @speed += 10
+  end
+
 end
